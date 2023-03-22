@@ -12,6 +12,7 @@
   "author": "Shahed Nasser",
   "license": "MIT",
   "dependencies": {
+    "auto": "^10.43.0",
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
     "conf": "^9.0.2",
@@ -19,5 +20,11 @@
   },
   "bin": {
     "todos": "index.js"
+  },
+  "repository": "ShopVidz/scripts",
+  "auto": {
+    "plugins": [
+      "npm"
+    ]
   }
 }
