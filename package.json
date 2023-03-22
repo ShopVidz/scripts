@@ -29,6 +29,12 @@
       "npm"
     ]
   },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true",
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
     "@types/node": "^18.15.5",
     "cz-conventional-changelog": "^3.3.0",
