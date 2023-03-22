@@ -11,7 +11,7 @@
   "keywords": [
     "MIT"
   ],
-  "author": "Shahed Nasser",
+  "author": "Mike McGrath",
   "license": "MIT",
   "dependencies": {
     "auto": "^10.43.0",
