@@ -2,6 +2,36 @@
 
 #### ⚠️ Pushed to `master`
 
+- feat: asdasd ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- feat: adad ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- fixes ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- feat(asd): aSD ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- feat: asd ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- fix(fix name): ad ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- docs: ad ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- feat: adf ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- wip ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- adsaf ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- Cleanup ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- push ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- v1 ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- working ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- added README (shahed.nasser@lurner.com)
+- added all the commands (shahed.nasser@lurner.com)
+- first commit ([@shahednasser](https://github.com/shahednasser))
+
+#### Authors: 3
+
+- Mike McGrath ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+- Shahed Nasser ([@shahednasser](https://github.com/shahednasser))
+- shahed.nasser (shahed.nasser@lurner.com)
+
+---
+
+# v2.1.3 (Wed Mar 22 2023)
+
+#### ⚠️ Pushed to `master`
+
 - feat: asd ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
 - fix(fix name): ad ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
 - docs: ad ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
