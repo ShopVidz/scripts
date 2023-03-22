@@ -10,6 +10,18 @@
 
 ---
 
+# v2.1.8 (Wed Mar 22 2023)
+
+#### ⚠️ Pushed to `master`
+
+- fix ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+
+#### Authors: 1
+
+- Mike McGrath ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+
+---
+
 # v2.1.7 (Wed Mar 22 2023)
 
 #### ⚠️ Pushed to `master`
