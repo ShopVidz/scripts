@@ -1,48 +1,65 @@
 {
-  "name": "@shopvidz/scripts",
-  "version": "2.1.2",
-  "description": "A CLI to manage a TODO list",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "release": "auto shipit",
-    "prepare": "husky install"
-  },
-  "keywords": [
-    "MIT"
-  ],
-  "author": "Mike McGrath",
-  "license": "MIT",
-  "dependencies": {
-    "auto": "^10.43.0",
-    "chalk": "^4.1.0",
-    "commander": "^7.2.0",
-    "conf": "^9.0.2",
-    "inquirer": "^8.0.0"
-  },
-  "bin": {
-    "todos": "index.js"
-  },
-  "repository": "ShopVidz/scripts",
-  "auto": {
-    "plugins": [
-      "npm"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
-    }
-  },
-  "devDependencies": {
-    "@types/node": "^18.15.5",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.3",
-    "typescript": "^5.0.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+	"name": "@shopvidz/scripts",
+	"version": "2.1.2",
+	"description": "A CLI to manage a TODO list",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"release": "auto shipit",
+		"prepare": "husky install"
+	},
+	"keywords": [
+		"MIT"
+	],
+	"author": "Mike McGrath",
+	"license": "MIT",
+	"dependencies": {
+		"auto": "^10.43.0",
+		"chalk": "^4.1.0",
+		"commander": "^7.2.0",
+		"conf": "^9.0.2",
+		"inquirer": "^8.0.0"
+	},
+	"bin": {
+		"todos": "index.js"
+	},
+	"repository": "ShopVidz/scripts",
+	"auto": {
+		"plugins": [
+			"npm"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+		}
+	},
+	"lint-staged": {
+		"*.{js,ts}": [
+			"prettier --write",
+			"eslint --fix"
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^18.15.5",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.0",
+		"prettier": "^2.8.6",
+		"typescript": "^5.0.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"prettier": {
+		"singleQuote": true,
+		"trailingComma": "all",
+		"printWidth": 120,
+		"tabWidth": 2,
+		"useTabs": true,
+		"semi": false
+	}
 }
