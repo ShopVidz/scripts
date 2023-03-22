@@ -6,7 +6,7 @@ const { spawn } = require("child_process");
 
 async function dev() {
   conf.set("dev", true);
-  console.log(chalk.greenBright("Dev mode enabled"));
+  console.log(chalk.greenBright("Development mode starting"));
 
   inquirer
     .prompt([
