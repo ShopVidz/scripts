@@ -4,7 +4,9 @@
   "description": "A CLI to manage a TODO list",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "release": "auto shipit",
+    "prepare": "husky install"
   },
   "keywords": [
     "MIT"
@@ -26,5 +28,16 @@
     "plugins": [
       "npm"
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
