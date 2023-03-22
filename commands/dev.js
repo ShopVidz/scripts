@@ -15,9 +15,9 @@ async function dev() {
         name: "dev_url",
         message: "What is your tunnel URL?",
         choices: [
-          "https://dev1.example.com",
-          "https://dev2.example.com",
-          "https://dev3.example.com",
+          "https://leoutsakos-dev.shopvidz.app",
+          "https://trager-dev.shopvidz.app",
+          "https://mcgrath-dev.shopvidz.app",
         ],
       },
       {
@@ -28,7 +28,6 @@ async function dev() {
       },
     ])
     .then((answers) => {
-      console.log(answers);
       const { dev_url, reset } = answers;
       conf.set("dev_url", dev_url);
       conf.set("reset", reset);
@@ -38,7 +37,7 @@ async function dev() {
       ui.log.write(chalk.greenBright(command));
 
       const cmd = spawn(command, {
-        shell: true,
+        shell: "/bin/bash",
         stdio: "inherit",
       });
 
