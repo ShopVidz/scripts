@@ -1,3 +1,15 @@
+# v2.1.13 (Thu Mar 23 2023)
+
+#### ⚠️ Pushed to `master`
+
+- update (mike@shopvidz.app)
+
+#### Authors: 1
+
+- Mike McGrath (mike@shopvidz.app)
+
+---
+
 # v2.1.12 (Thu Mar 23 2023)
 
 #### ⚠️ Pushed to `master`
