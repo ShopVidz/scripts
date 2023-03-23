@@ -10,6 +10,18 @@
 
 ---
 
+# v2.1.14 (Thu Mar 23 2023)
+
+#### ⚠️ Pushed to `master`
+
+- update ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+
+#### Authors: 1
+
+- Mike McGrath ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+
+---
+
 # v2.1.13 (Thu Mar 23 2023)
 
 #### ⚠️ Pushed to `master`
