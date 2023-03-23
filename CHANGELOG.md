@@ -2,6 +2,19 @@
 
 #### ⚠️ Pushed to `master`
 
+- pack (mike@shopvidz.app)
+- test (mike@shopvidz.app)
+
+#### Authors: 1
+
+- Mike McGrath (mike@shopvidz.app)
+
+---
+
+# v2.1.12 (Thu Mar 23 2023)
+
+#### ⚠️ Pushed to `master`
+
 - test (mike@shopvidz.app)
 
 #### Authors: 1
