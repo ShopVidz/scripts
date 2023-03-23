@@ -56,5 +56,11 @@
 		"tabWidth": 2,
 		"useTabs": true,
 		"semi": false
+	},
+	"engines": {
+		"node": ">=18.14.2"
+	},
+	"volta": {
+		"node": "18.14.2"
 	}
 }
