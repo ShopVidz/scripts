@@ -21,7 +21,7 @@
 		"inquirer": "^8.0.0"
 	},
 	"bin": {
-		"dev": "index.js"
+		"shopvidz:dev": "index.js"
 	},
 	"repository": "ShopVidz/scripts",
 	"auto": {
