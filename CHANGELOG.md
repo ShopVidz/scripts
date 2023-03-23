@@ -1,3 +1,15 @@
+# v2.1.11 (Thu Mar 23 2023)
+
+#### ⚠️ Pushed to `master`
+
+- try bin ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+
+#### Authors: 1
+
+- Mike McGrath ([@mjmcgrath2010](https://github.com/mjmcgrath2010))
+
+---
+
 # v2.1.10 (Thu Mar 23 2023)
 
 #### ⚠️ Pushed to `master`
