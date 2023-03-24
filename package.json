@@ -20,7 +20,9 @@
 		"conf": "^9.0.2",
 		"inquirer": "^8.0.0"
 	},
-	"bin": "index.js",
+	"bin": {
+		"dev": "index.js"
+	},
 	"repository": "ShopVidz/scripts",
 	"auto": {
 		"plugins": [
