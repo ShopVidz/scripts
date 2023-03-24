@@ -1,6 +1,6 @@
 {
 	"name": "@shopvidz/scripts",
-	"version": "2.1.16",
+	"version": "2.1.17",
 	"description": "A CLI to manage a TODO list",
 	"main": "index.js",
 	"scripts": {
