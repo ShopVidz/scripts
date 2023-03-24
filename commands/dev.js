@@ -31,7 +31,9 @@ async function dev() {
 			const { dev_url, reset } = answers
 			conf.set('dev_url', dev_url)
 			conf.set('reset', reset)
-			const command = `yarn shopify app dev --tunnel-url=${dev_url}:4000 ${reset ? '--reset' : ''}`
+			const command = `pnpm shopify app dev --tunnel-url=${dev_url}:4000 --skip-dependencies-installation ${
+				reset ? '--reset' : ''
+			}`
 			ui.log.write(chalk.greenBright(command))
 
 			const cmd = spawn(command, {
